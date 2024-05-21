@@ -1,0 +1,31 @@
+body{
+background-image: url(background.jpg);
+color: white;
+
+}
+
+#all{
+    display: grid;
+    justify-content: center;
+
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(3 , 100px);
+    justify-content: center;
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 80px;
+    
+
+}
+
+p{
+    text-align: center;
+    
+}
